@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Symmetric Parking Layout with Central Lane</title>
+</head>
+<body>
+
+<h2>Parking with Central Lane</h2>
+
+<svg height="700" width="1150" xmlns="http://www.w3.org/2000/svg" style="border: 1px solid black;">
+  
+
+  <!-- Parking Slots -->
+  <!-- Column 1 -->
+  <rect x="100" y="100" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="100" y="200" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="100" y="300" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="100" y="400" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="100" y="500" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  
+  <!-- Column 2 -->
+  <rect x="300" y="100" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="300" y="200" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="300" y="300" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="300" y="400" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="300" y="500" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+
+  <!-- Central Lane (Gap between Column 3 and Column 4) -->
+  
+  <!-- Column 3 -->
+  <rect x="650" y="100" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="650" y="200" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="650" y="300" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="650" y="400" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="650" y="500" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+
+  <!-- Column 4 -->
+  <rect x="850" y="100" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="850" y="200" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="850" y="300" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="850" y="400" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+  <rect x="850" y="500" width="200" height="100" style="fill:lightgray;stroke:black;stroke-width:1" />
+</svg>
+
+</body>
+</html>
